@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VMIX - الصفحة الرئيسية</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- الهيدر الثابت -->
+  <div class="top-navbar">
+    <div class="container">
+      <nav class="nav-links">
+         <a href="product-experiences.html">الرئيسية</a>
+        <a href="index.html">من نحن</a>
+        <a href="products.html">منتجاتنا</a>
+        <a href="https://www.facebook.com/profile.php?id=61551545773420&locale=ar_AR">تواصل معنا</a>
+         <a href="guarantee.html">ضمان</a>
+      </nav>
+    </div>
+  </div>
+
+  <!-- الهيدر بخلفية فيديو -->
+  <header>
+    <video autoplay muted loop>
+      <source src="C:\Users\ACER\Desktop\vmax\Untitled video - Made with Clipchamp.mp4" type="video/mp4">
+      متصفحك لا يدعم عرض الفيديو
+    </video>
+    <div class="overlay">
+      <img src="overlay.png" alt="خلفية شفافة" />
+    </div>
+    <div class="content">
+      <h1>مرحبًا بك في VMIX</h1>
+    </div>
+  </header>
+
+  <!-- قسم الخدمات -->
+ <section id="services-section">
+  <div class="services-container">
+    <h2 class="section-title">خدماتنا</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <i class="fa-solid fa-shield-halved"></i>
+        <h3>ضمان معتمد</h3>
+        <p>نقدم ضمان فعلي لكل منتج مع سهولة التفعيل والمتابعة.</p>
+      </div>
+      <div class="service-card">
+        <i class="fa-solid fa-truck-fast"></i>
+        <h3>توصيل سريع</h3>
+        <p>خدمة توصيل فعالة لجميع المناطق داخل ليبيا في وقت قياسي.</p>
+      </div>
+      <div class="service-card">
+        <i class="fa-solid fa-headset"></i>
+        <h3>دعم فني</h3>
+        <p>فريق جاهز لمساعدتك والرد على استفساراتك 24/7.</p>
+      </div>
+    </div>
+    <a href="guarantee.html" class="btn-blue">فعّل ضمانك الآن</a>
+  </div>
+</section>
+    <!-- فلترة الفروع -->
+    <div class="branches-filter">
+      <button class="filter-btn active" data-filter="all">جميع الفروع</button>
+      <button class="filter-btn" data-filter="eastern">طرابلس</button>
+      <button class="filter-btn" data-filter="western">مصراته </button>
+      <button class="filter-btn" data-filter="central">الزاوية </button>
+    </div>
+    
+
+
+    
+    <!-- شبكة البطاقات -->
+    <div class="branches-grid">
+      <!-- بطاقة فرع 1: المنطقة الشرقية -->
+      <div class="branch-card" data-region="eastern">
+        <div class="branch-front">
+          <img src="titanum.jpg" alt="فرع المنطقة الشرقية 1">
+          <h3>الفرع الأول - طرابلس </h3>
+        </div>
+        <div class="branch-overlay">
+          <div class="branch-info">
+            <p>📍 طريق المشتل – بالقرب من مصنع النجمة</p>
+            <p>☎️ للاستفسار: 0921111230 </p>
+            <div class="branch-buttons">
+              <a href="https://maps.google.com/?q=الدمام" target="_blank" class="branch-btn">
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+              <a href="https://www.facebook.com/VMIX" target="_blank" class="branch-btn">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة فرع 2: المنطقة الشرقية -->
+      <div class="branch-card" data-region="eastern">
+        <div class="branch-front">
+          <img src="C:\Users\ACER\Desktop\مجلد جديد (2)\assets\img\photo_2025-06-27_18-24-17.jpg" alt="فرع المنطقة الشرقية 2">
+          <h3>الفرع الثاني - طرابلس</h3>
+        </div>
+        <div class="branch-overlay">
+          <div class="branch-info">
+            <p>محل حمودة موبايل السياحية <br>
+بقرب من ريقاطة وكلية الاداري سياحية</p>
+            <p>الهاتف: 0123456790</p>
+            <div class="branch-buttons">
+              <a href=https://maps.app.goo.gl/EbAucgB192hCfboZ7  target="_blank" class="branch-btn">
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+              <a href="https://www.facebook.com/VMIX" target="_blank" class="branch-btn">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة فرع 3: المنطقة الغربية -->
+      <div class="branch-card" data-region="western">
+        <div class="branch-front">
+          <img src="C:\Users\ACER\Desktop\مجلد جديد (2)\assets\img\photo_2025-06-27_18-47-55.jpg" alt="فرع المنطقة الغربية 1">
+          <h3>الفرع الأول -مصراته </h3>
+        </div>
+        <div class="branch-overlay">
+          <div class="branch-info">
+            <p>العنوان:مصراته</p>
+            <p>الهاتف: 0123456791</p>
+            <div class="branch-buttons">
+              <a href= 
+https://maps.google.com?q=32.8675062,13.2110840&hl=en-AE&gl=ae&entry=gps&lucs=,47071704,47069508&g_st=it target="_blank" class="branch-btn">
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+              <a href="https://www.facebook.com/VMIX" target="_blank" class="branch-btn">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة فرع 4: المنطقة الغربية -->
+      <div class="branch-card" data-region="western">
+        <div class="branch-front">
+          <img src="C:\Users\ACER\Desktop\مجلد جديد (2)\assets\img\photo_2025-06-27_18-48-07.jpg"  alt="فرع المنطقة الغربية 2">
+          <h3>الفرع الثاني - مصراته</h3>
+        </div>
+        <div class="branch-overlay">
+          <div class="branch-info">
+            <p>: مصراته </p>
+            <p>الهاتف: 0123456792</p>
+            <div class="branch-buttons">
+              <a href= "http://bit.ly/4h1zEZu" target="_blank" class="branch-btn">
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+              <a href="https://www.facebook.com/VMIX" target="_blank" class="branch-btn">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة فرع 5: المنطقة الوسطى -->
+      <div class="branch-card" data-region="central">
+        <div class="branch-front">
+          <img src="C:\Users\ACER\Desktop\مجلد جديد (2)\assets\img\photo_2025-06-27_18-48-01.jpg" alt="فرع المنطقة الوسطى 1">
+          <h3>الفرع الأول - الزاوية </h3>
+        </div>
+        <div class="branch-overlay">
+          <div class="branch-info">
+            <p>الزاويه ، شارع القرضابية</p>
+            <p>الهاتف: 0123456793</p>
+            <div class="branch-buttons">
+              <a href="https://maps.app.goo.gl/EbAucgB192hCfboZ7" target="_blank" class="branch-btn">
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+              <a href="https://www.facebook.com/VMIX" target="_blank" class="branch-btn">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- بطاقة فرع 6: المنطقة الوسطى -->
+      <div class="branch-card" data-region="central">
+        <div class="branch-front">
+          <img src="C:\Users\ACER\Desktop\مجلد جديد (2)\assets\img\photo_2025-06-27_19-00-30.jpg" alt="فرع المنطقة الوسطى 2">
+          <h3>الفرع الثاني - الزاوية</h3>
+        </div>
+        <div class="branch-overlay">
+          <div class="branch-info">
+            <p>الزاوية </p>
+            <p>الهاتف: 0123456794</p>
+            <div class="branch-buttons">
+              <a href="https://maps.app.goo.gl/WBaKd32nB5sQWjPU6?g_st=ic&fbclid=IwQ0xDSwLLrVxleHRuA2FlbQIxMAABHmZxIFnZTtAhQrjGuiE3CDBHeTFZazo1ADrGuI5RkZX2-9xWdEa9irrjV2-u_aem_vFDN-l8DXompJbiVDK_qNA" target="_blank" class="branch-btn">
+                <i class="fa-solid fa-location-dot"></i>
+              </a>
+              <a href="https://www.facebook.com/VMIX" target="_blank" class="branch-btn">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- قسم المنتجات -->
+  <section id="products-section">
+    <!-- ... قسم المنتجات الأصلي ... -->
+  </section>
+
+  <!-- الفوتر -->
+  <footer>
+    <p>جميع الحقوق محفوظة © VMIX 2025</p>
+    <nav>
+      <a href="#">الشروط والأحكام</a> |
+      <a href="#">سياسة الخصوصية</a>
+    </nav>
+  </footer>
+
+  <script src="scr.js"></script>
+</body>
+</html>
